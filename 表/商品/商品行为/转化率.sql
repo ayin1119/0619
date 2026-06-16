@@ -14,4 +14,5 @@ SELECT
 
 FROM item_behavior_summary
 ORDER BY
-    item_category,view_to_buy_rate DESC;
+    item_category,view_to_buy_rate DESC
+limit 3000000
