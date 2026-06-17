@@ -23,4 +23,5 @@ FROM (
     FROM data_min
     GROUP BY item_category
 ) t
-ORDER BY total_sales / NULLIF(total_views, 0) DESC;
+ORDER BY total_sales / NULLIF(total_views, 0) DESC
+limit 9000
