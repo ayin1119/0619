@@ -14,4 +14,5 @@ SELECT
 FROM data_min
 GROUP BY user_id
 HAVING purchase_count > 0
-ORDER BY pre_buy_behavior_per_purchase DESC;
+ORDER BY pre_buy_behavior_per_purchase DESC
+limit 100000
